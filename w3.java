@@ -1,0 +1,33 @@
+import java.util.Scanner;
+ 
+public class w3 {
+    
+    public static void main(String[] args) {
+    
+        int x ;
+
+        Scanner sc = new Scanner(System.in);
+
+        x = sc.nextInt();
+
+        if ( x >= 80 ) {
+            System.out.println("A");
+        } else if ( x >= 75 ) {
+            System.out.println("B+");
+        } else if ( x >= 70 ) {
+            System.out.println("B");
+        } else if ( x >= 65 ) {
+            System.out.println("C+");
+        } else if ( x >= 60 ) {
+            System.out.println("C");
+        } else if ( x >= 55 ) {
+            System.out.println("D+");
+        } else if ( x >= 50 ) {
+            System.out.println("D");
+        } else {
+            System.out.println("F");
+        }
+         sc.close();
+    }
+        
+}
