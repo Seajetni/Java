@@ -10,11 +10,8 @@ public class w7 {
                sum +=  n[i][j];
                
             }
-
-            System.out.print(sum + " ");
-            sum = 0;
          }
 
-
+        System.out.print(sum + " ");
     }
 }
